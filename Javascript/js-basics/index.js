@@ -1,33 +1,16 @@
-        // This is my first JS-code!             
+const myAge = 33
+const newAge = 34
 
-        function multiply(a, b) {
-            return a * b; 
-        }
+console.log(myAge + newAge);
 
-        function divide(a, b) {
-            return a / b;
-        }
+console.log(new Date());
 
-        console.log(multiply(4, 8));
-        console.log(multiply(6, 9));
-
-        console.log(divide(90, 7));
-        console.log(137, 23);
-
-        function plotValue(myName) {
-            console.log(myName);
-        }
-
-        plotValue('Linnea');
-
-        ///gjennomsnitt alder
-        function averageAge(a, b, c) {
-            const totalAge = a + b + c;
-            console.log(totalAge / 3);
-        }
-
-        averageAge(26, 65, 42);
+console.clear();
 
 
+//sjekke åpentider for en butikk
 
-        
+// 1 tidspunkt for åpning
+// 2 tidspunkt for stenging
+// 3 nåværende tidspunkt
+// 4 stengte dager

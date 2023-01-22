@@ -226,4 +226,79 @@ document.getElementById("increaseBtn").onclick = function() {
     document.getElementById("countLabel").innerHTML = count;
 }
 
+const pElementCreate = document.createElement('p');
+console.log(pElementCreate);
+
+pElementCreate.textContent = 'denne <p> er bygget via JS';
+
+const parentBodyElement = document.getElementById('body');
+parentBodyElement.append(pElementCreate)
+
+console.log(parentBodyElement);
+
+const h2ContainerCreate = document.createElement('h2');
+h2ContainerCreate.textContent = 'tittel til div container';
+
+const boxContainerElement = document.querySelector('.container');
+boxContainerElement.append(h2ContainerCreate);
+
+const whoIsParent = h2ContainerCreate.parentNode; //finner hva er parent i HTML
+console.log(whoIsParent);
+
+
+let x;
+let y;
+let z;
+
+
+document.getElementById('rollButton').onclick = function() {
+
+    let x = Math.floor(Math.random() * 6) + 1;
+    let y = Math.floor(Math.random() * 6) + 1;
+    let z = Math.floor(Math.random() * 6) + 1;
+    let q = Math.floor(Math.random() * 6) + 1;
+    let w = Math.floor(Math.random() * 6) + 1;
+
+    document.getElementById('xLabel').innerHTML = x;
+    document.getElementById('yLabel').innerHTML = y;
+    document.getElementById('zLabel').innerHTML = z;
+    document.getElementById('qLabel').innerHTML = q;
+    document.getElementById('wLabel').innerHTML = w;
+}
+
+/*console.log(x);
+console.log(y);
+console.log(z);
+*/
+
+/*
+// useful string properties & methods
+
+let userName = 'lilfoxkitten';
+let phoneNumber = '123456789';
+
+console.log(userName.length);
+console.log(userName.charAt(3));
+console.log(userName.indexOf('o'));
+console.log(userName.lastIndexOf('o'));
+userName = userName.trim();
+userName = userName.toUpperCase();
+userName = userName.toLowerCase();
+
+phoneNumber = phoneNumber.replaceAll('-', '/');
+console.log(phoneNumber);
+*/
+
+// slice() extracts a section of a string and returns it as a new string
+// without modifying the original String
+
+let fullName = 'Linnea Olofsson';
+let forstName;
+let lastName;
+
+firstName = fullName.slice(0, 6);
+lastName = fullName.slice(7);
+
+console.log(firstName);
+console.log(lastName);
 

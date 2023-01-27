@@ -46,3 +46,11 @@ for(let i = 0; i <= 10; i++) {
     }
 }
 
+// loop med do / while
+let i = 1;
+do {
+    console.log(i);
+    i = i +1;
+
+} while (i <= 18);
+

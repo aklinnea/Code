@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/valuta.css">
+    <title>Valutakalkulator</title>
+    <script async src="./JS/valuta.js"></script>
+</head>
+<body>
+    <header><h1>Valutakalkulator</h1> </header>
+    <main>  
+        <label for="sum">SUM NOK</label>
+        <input type="number" id="sum">
+
+        <label for="currencyTo"></label>
+        <select id="currencyTo">
+            <option selected value="0">Til</option> 
+            <!--
+            <option value="0.093">Euro</option>
+            <option value="0.10">USD</option>
+            -->
+        </select>
+        
+        <button type="button" id="convert">Konvertere</button>    
+
+        <label for="result">Resultat:</label>
+        <p id="result"></p>
+       <!-- <input type="text" id="result">  -->  
+    </main>
+    <footer></footer>
+</body>
+
+</html>

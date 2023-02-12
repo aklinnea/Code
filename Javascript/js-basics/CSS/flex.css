@@ -1,0 +1,43 @@
+html {
+    font-size: 100%;
+}
+
+.flex-container {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.6rem;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.flex-item {
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: blanchedalmond;
+    width: 10rem;
+    height: 8rem;
+    color: darkgreen;
+    width: 100vw;
+}
+
+.flex-item-1 {
+    align-self: flex-start;
+}
+
+.flex-item-2 {
+    height: 20rem;
+}
+
+.flex-item-3 {
+
+}
+
+ul {
+    background-color: darkgray;
+    padding: 2rem;
+    font-size: 1.5rem;
+}

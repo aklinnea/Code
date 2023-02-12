@@ -1,0 +1,126 @@
+html {
+    font-family: ;
+    font-size: 100%;
+}
+
+body {
+    background-image: url('../assets/white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: #F4F4F6;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+main {
+    background-color: #F4F4F6;
+    border-style: solid;
+    border-bottom: none;
+    border-color: black;
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.grocery-list {
+    color: black;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    margin-left: 1rem;
+}
+
+#new-items-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+
+li {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+
+/*
+li:hover {
+    border-style: solid;
+    border-style: outset;
+    transition-duration: 0.2s;
+}
+*/
+.done-items {
+    color: black;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    margin-left: 1rem;
+}
+
+#done-items-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+
+
+footer {
+    background-color: #F4F4F6;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+input {
+    background-color: #F4F4F6;
+    border-color: black;
+    padding: 0.5rem;
+    border-style: solid;
+}
+
+button {
+    background-color: #F4F4F6;
+    color: black;
+    padding: 0.5rem;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+button:hover {
+    transition-duration: 1s;
+    background-color: black;
+    color: #F4F4F6;
+}

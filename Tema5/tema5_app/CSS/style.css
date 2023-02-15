@@ -1,0 +1,108 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #F4F4F6;
+    height: 100%;
+}
+
+header {
+    background-image: url(../assets/white.jpg);
+    background-size: cover;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+main {
+    background-color: #F4F4F6;
+    border-style: solid;
+    border-bottom: none;
+    border-color: black;
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+}
+
+.my-shopping-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-list {
+    color: black;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-left: 2rem;
+}
+
+#new-items-list {
+    width: 100%;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /*align-items: center;*/
+    list-style: none;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+li {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.5rem;
+    
+}
+
+#done-item {
+    accent-color: black;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-left: 4rem;
+}
+
+
+footer {
+    background-image: url(../assets/white.jpg);
+    background-size: cover;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+#new-item {
+    background-color: #F4F4F6;
+    border-color: black;
+    padding: 0.5rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+}
+
+button {
+    background-color: #F4F4F6;
+    color: black;
+    padding: 0.5rem;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+button:hover {
+    transition-duration: 1s;
+    background-color: black;
+    color: #F4F4F6;
+}
